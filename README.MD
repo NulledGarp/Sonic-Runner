@@ -16,9 +16,10 @@ A fast-paced runner game inspired by Sonic, built with TypeScript using the kapl
 
 ## Installation
 
-1. Clone the repository:
+### Clone the repository:
    ```bash
    git clone https://github.com/your-username/sonic-type-runner.git
+```
 
 
 #### Navigate to the project directory:
@@ -29,3 +30,29 @@ A fast-paced runner game inspired by Sonic, built with TypeScript using the kapl
 ```
 npm install
 ```
+
+### Running the Game
+#### Start the development server:
+```
+npm run dev
+```
+
+### Build for production:
+```
+npm run build
+```
+
+## Controls
+
+**Jump:**
+
+    Keyboard: Space key
+
+    Mouse: Left click
+
+
+## Contributing
+Contributions are welcome! Please open an issue or submit a pull request.
+
+## License
+MIT

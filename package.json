@@ -1,14 +1,17 @@
 {
-  "name": "sonic-runner-ts",
+  "name": "sonic-runner",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
   },
+  "homepage": "https://nulledgarp.github.io/sonic-runner/",
   "devDependencies": {
+    "gh-pages": "^6.3.0",
     "typescript": "~5.7.2",
     "vite": "^6.3.1"
   },
